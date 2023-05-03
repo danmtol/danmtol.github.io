@@ -57,6 +57,7 @@ h2 {
 .Apps iframe,
 .Mentioned img {
   max-width: 100%;
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);
 /*  height: auto;
 */}
 
@@ -100,7 +101,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+  background-color: rgba(0,10,0,.2);
 }
 
 .myButton:active {
@@ -148,16 +149,16 @@ img {
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
-}
+  padding: 0 20px 20px 20px;  
+/*  border-top: 1px solid #4a4a4a;
+*/}
 
-.logo {
+/*.logo {
   width: 115px;
   height: 21.1px;
   object-fit: contain;
   padding: 20px;
-}
+}*/
 
 .container {
   /*min-width: 500px;*/
