@@ -51,10 +51,19 @@ h2 {
   padding: 10px 0px 10px 10px;
 }
 
+.Blog img,
+.Podcast iframe,
+.Apps iframe,
+.Mentioned img {
+  max-width: 100%;
+  height: auto;
+}
+
 img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  object-position: center top;
 }
 
 .wrapper {
