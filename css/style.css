@@ -6,17 +6,18 @@ html {
 /* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */
 body {
   margin: 0;
+  color: #001524;
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #ccd5ae;
   text-align: left;
   /*min-width: 500px;*/
 }
 
 header {
   font-family: Space Mono;
-  color: #333333;
+  color: #2b2d42;
   min-height: 100vh;
   display: flex;
 }
